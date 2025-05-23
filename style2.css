@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #a598ff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+}
+.mensaje{
+    color: #91fa3c;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px #91fa3c, 0px 0px 10px #91fa3c,0px 0px 10px #91fa3c,0px 0px 10px #91fa3c, 0px 0px 10px #91fa3c;
+}
+
+.container{
+    background-color: none;
+    border: solid #115753;
+    box-shadow: 0 0 10px #115753#115753, 0 0 10px #1edad1;
+    color: #115753;
+    text-shadow: 0 0 10px #115753, 0 0 10px #115753, 0 0 10px #115753, 0 0 10px #115753;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
